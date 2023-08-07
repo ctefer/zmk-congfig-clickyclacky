@@ -1,0 +1,5 @@
+config SHIELD_CLICK_LEFT
+    def_bool $(shields_list_contains,clickyclacky_left)
+
+config SHIELD_CLICK_RIGHT
+    def_bool $(shields_list_contains,clickyclacky_right)
