@@ -83,9 +83,9 @@
 
         bl_layer {
             bindings = <
-                &none   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &none        
-                &none   &bt BT_CLR      &bt BT_NXT      &bt BT_PRV      &none        
-                &none   &none           &none           &none           &none        
+                &out USB   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &none        
+                &out BLE   &bt BT_CLR      &bt BT_NXT      &bt BT_PRV      &none        
+                &none      &none           &none           &none           &none        
                                         &none           &kp NAVI        &trans    
             >;
         };
