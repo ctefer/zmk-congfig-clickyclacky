@@ -23,37 +23,37 @@
            key-positions = < 10 11>;
            bindings = <&kp LCTRL>;
        };
-       combo_ctrl {
+       combo_excl {
            timeout-ms = <50>;
            key-positions = < 2 3 >;
-           bindings = <&kp EXCl >;
+           bindings = <&kp EXCL >;
        };
-       combo_ctrl {
+       combo_at {
            timeout-ms = <50>;
            key-positions = < 7 8 >;
            bindings = <&kp AT_SIGN >;
        };
-       combo_ctrl {
+       combo_pnd {
            timeout-ms = <50>;
            key-positions = < 12 13 >;
            bindings = <&kp POUND >;
        };
-       combo_ctrl {
+       combo_dollar {
            timeout-ms = <50>;
            key-positions = < 3 4 >;
            bindings = <&kp DOLLAR >;
        };
-       combo_ctrl {
+       combo_prcnt {
            timeout-ms = <50>;
            key-positions = < 8 9 >;
            bindings = <&kp PRCNT >;
        };
-       combo_ctrl {
+       combo_caret {
            timeout-ms = <50>;
            key-positions = < 13 14 >;
            bindings = <&kp CARET >;
        };
-       combo_ctrl {
+       combo_gui {
            timeout-ms = <50>;
            key-positions = < 16 17 >;
            bindings = <&kp LEFT_GUI >;

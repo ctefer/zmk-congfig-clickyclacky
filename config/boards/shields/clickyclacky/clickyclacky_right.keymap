@@ -24,12 +24,12 @@
            bindings = <&kp COLON>;
        };
        
-       combo_ctrl {
+       combo_amps {
            timeout-ms = <50>;
            key-positions = < 0 1 >;
            bindings = <&kp AMPS >;
        };
-       combo_ctrl {
+       combo_astrk {
            timeout-ms = <50>;
            key-positions = < 5 6 >;
            bindings = <&kp ASTRK >;
@@ -63,8 +63,8 @@
             bindings = <
                 &kp Y       &kp U       &kp I       &kp O       &kp P          
                 &kp H       &kp J       &kp K       &kp L       &kp SEMI         
-                &kp N       &kp M       &kp COMMA   &kp DOT  &kp QMARK         
-                                        &kp SPACE    &kp NAVI    &kp BSPC   
+                &kp N       &kp M       &kp COMMA   &kp DOT     &kp QMARK         
+                                        &kp SPACE   &kp NAVI    &kp BSPC   
             >;
         };
 
