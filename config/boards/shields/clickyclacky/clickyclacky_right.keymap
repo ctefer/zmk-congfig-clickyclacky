@@ -9,7 +9,7 @@
 #define NAVI    1
 
 
-/ {
+/{
     
     combos {
        compatible = "zmk,combos";
@@ -23,7 +23,6 @@
            key-positions = < 10 11>;
            bindings = <&kp COLON>;
        };
-       
        combo_amps {
            timeout-ms = <50>;
            key-positions = < 0 1 >;
@@ -76,5 +75,6 @@
                                             &none      &kp NAVI     &trans    
             >;
         };
+    };
 };
 
