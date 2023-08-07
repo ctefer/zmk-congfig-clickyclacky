@@ -1,2 +1,2 @@
 #include "clickyclacky.dtsi"
-#include "clickyclacky_left.keymap"
+#include "clickyclacky_right.keymap"
