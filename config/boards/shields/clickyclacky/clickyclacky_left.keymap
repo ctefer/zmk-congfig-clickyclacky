@@ -21,7 +21,7 @@
        combo_blue {
            timeout-ms = <COMBO_HOLD_TIME_MS>;
            key-positions = < 9 14>;
-           bindings = <&kp BLUE_2>;
+           bindings = <&kp BLU_2>;
        };
     };
 
