@@ -18,6 +18,11 @@
            key-positions = < 15 16 17>;
            bindings = <&kp LC(LA(DEL))>;
        };
+       combo_blue {
+           timeout-ms = <COMBO_HOLD_TIME_MS>;
+           key-positions = < 9 14>;
+           bindings = <&kp BLUE_2>;
+       };
     };
 
     behaviors {
@@ -47,15 +52,15 @@
                 &none       &none       &kp PG_UP    &kp UP     &kp LC(A)        
                 &none       &sk LALT    &kp LEFT     &kp DOWN   &kp RIGHT        
                 &none       &sk LCTRL   &kp PG_DN    &none      &kp LC(S)        
-                                        &sk LSHFT    &kp BLU_2  &trans    
+                                        &sk LSHFT    &kp DEF_0  &trans    
             >;
         };
 
         bl_layer {
             bindings = <
-                &out OUT_USB    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2    &none        
-                &out OUT_BLE    &bt BT_CLR      &bt BT_NXT      &bt BT_PRV      &none        
-                &none       &none           &none           &none           &none        
+                &out OUT_USB &none    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2            
+                &out OUT_BLE &none    &bt BT_CLR      &bt BT_NXT      &bt BT_PRV              
+                &out OUT_TOG &none    &none           &none           &none        
                                             &none           &kp DEF_0       &none    
             >;
         };
