@@ -31,7 +31,7 @@
             label = "SHIFT_CAPS";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&sk N1>, <&kp CAPS>;
+            bindings = <&sk LSHFT>, <&kp CAPS>;
         };
          bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
