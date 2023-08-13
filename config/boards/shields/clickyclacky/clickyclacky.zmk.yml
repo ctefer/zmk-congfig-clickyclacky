@@ -1,9 +1,12 @@
 file_format: "1"
-id: clickyclacky_left
-name: clickyclacky_left
+id: clickyclacky
+name: ClickyClacky
 type: shield
 url: https://github.com/ctefer/zmk-config-clickyclacky
 requires:
   - nice_nano_v2
 features:
   - keys
+siblings:
+  - clicklyclacky_left
+  - clicklyclacky_right
