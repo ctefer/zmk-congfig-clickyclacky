@@ -50,7 +50,7 @@
                 &kp ESC     &kp W       &kp F       &kp P       &kp G           &kp J       &kp L       &kp U       &kp Y       &kp SEMI      
                 &kp V       &kp A       &kp R       &kp S       &kp T           &kp N       &mt LGUI E  &kp I       &kp O       &kp MINUS     
                 &kp Z       &kp X       &kp C       &kp D       &kp B           &kp H       &kp K       &kp M       &kp Q       &kp EQUAL     
-                                        &shift_cap  &kp NAV_1   &kp RET         &kp SPACE   &kp TAB     &bspc_del
+                                        &kp NAV_1   &shift_cap  &kp RET         &kp SPACE   &kp TAB     &bspc_del           
             >;
         };
 
@@ -59,16 +59,16 @@
                 &none       &none       &kp PG_UP    &kp UP     &kp LC(A)       &kp N7      &kp N8      &kp N9     &kp N0       &kp GRAVE        
                 &none       &sk LALT    &kp LEFT     &kp DOWN   &kp RIGHT       &kp N4      &kp N5      &kp N6     &kp LBKT     &kp RBKT         
                 &none       &sk LCTRL   &kp PG_DN    &none      &kp LC(S)       &kp N1      &kp N2      &kp N3     &kp HOME     &kp END          
-                                        &sk LSHFT    &kp DEF_0  &trans          &kp DEL     &kp DEF_0   &kp BSPC  
+                                        &kp DEF_0    &trans     &sk LSHFT       &kp DEL     &kp BSPC    &kp DEF_0 
             >;
         };
 
         bl_layer {
             bindings = <
-                &out OUT_USB &none    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2      &none       &none       &none       &none       &none             
-                &out OUT_BLE &none    &bt BT_CLR      &bt BT_NXT      &bt BT_PRV        &none       &none       &none       &none       &none             
-                &out OUT_TOG &none    &none           &none           &none             &none       &none       &none       &none       &none  
-                                            &none           &kp DEF_0       &none       &none       &kp DEF_0   &none    
+                &out OUT_USB    &none   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2      &none       &none       &none       &none       &none             
+                &out OUT_BLE    &none   &bt BT_CLR      &bt BT_NXT      &bt BT_PRV        &none       &none       &none       &none       &none             
+                &out OUT_TOG    &none   &none           &none           &none             &none       &none       &none       &none       &none  
+                                        &kp DEF_0       &none           &none             &none       &none       &kp DEF_0
             >;
         };
     };
