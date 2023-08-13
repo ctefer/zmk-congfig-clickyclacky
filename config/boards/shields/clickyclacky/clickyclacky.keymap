@@ -33,6 +33,13 @@
             tapping-term-ms = <200>;
             bindings = <&sk N1>, <&kp CAPS>;
         };
+         bspc_del: backspace_delete {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BACKSPACE_DELETE";
+            #binding-cells = <0>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+            mods = <(MOD_LSFT)>;
+        };
     };
 
     keymap {
