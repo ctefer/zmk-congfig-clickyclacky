@@ -27,7 +27,7 @@
        combo_blue {
            timeout-ms = <COMBO_HOLD_TIME_MS>;
            key-positions = < 14 24>;
-           bindings = <&kp BLU_2>;
+           bindings = <&to BLU_2>;
        };
     };
 
@@ -56,25 +56,25 @@
                 &kp ESC     &kp W       &kp F       &kp P       &kp G           &kp J       &kp L       &kp U       &kp Y       &kp SEMI      
                 &kp V       &kp A       &kp R       &kp S       &kp T           &kp N       &kp E       &kp I       &kp O       &kp MINUS     
                 &kp Z       &kp X       &kp C       &kp D       &kp B           &kp H       &kp K       &kp M       &kp Q       &kp EQUAL     
-                                        &tog NAV_1   &shift_cap  &kp RET         &kp SPACE   &kp TAB     &bspc_del           
+                                        &kp RET     &shift_cap  &tog NAV_1      &bspc_del   &kp TAB    &kp SPACE            
             >;
         };
 
         nav_layer {
             bindings = <
-                &kp PLUS    &none       &kp PG_UP    &kp UP     &kp LC(A)       &kp N7      &kp N8      &kp N9     &kp N0       &kp GRAVE        
-                &kp MINUS   &sk LALT    &kp LEFT     &kp DOWN   &kp RIGHT       &kp N4      &kp N5      &kp N6     &kp LBKT     &kp RBKT         
-                &none       &sk LCTRL   &kp PG_DN    &none      &kp LC(S)       &kp N1      &kp N2      &kp N3     &kp HOME     &kp END          
-                                        &tog NAV_1   &trans     &sk LSHFT       &kp EQUAL     &kp BSPC    &bspc_del 
+                &kp ESC     &none       &none       &none       &kp LC(A)       &LC(X)      &kp UP      &none            &kp N0       &kp GRAVE        
+                &kp LSHFT   &none       &none       &none       &none           &kp LEFT    &kp DOWN    &kp RIGHT        &kp LBKT     &kp RBKT         
+                &kp LCTRL   &kp LALT    &none       &none       &kp LC(S)       &LC(P)      &none       &none            &kp HOME     &kp END          
+                                        &none       &none       &tog NAV_1      &bspc_del   &kp TAB     &kp SPACE 
             >;
         };
 
         bl_layer {
             bindings = <
-                &out OUT_USB    &none   &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2      &none       &none       &none       &none       &none             
-                &out OUT_BLE    &none   &bt BT_CLR      &bt BT_NXT      &bt BT_PRV        &none       &none       &none       &none       &none             
-                &out OUT_TOG    &none   &none           &none           &none             &none       &none       &none       &none       &none  
-                                        &to DEFAULT       &none           &none             &none       &none       &to DEFAULT
+                &kp ESC &out OUT_USB    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2      &kp N7      &kp N8      &kp N9       &kp BACKSLASH    &kp MINUS             
+                &none   &out OUT_BLE    &bt BT_CLR      &bt BT_NXT      &bt BT_PRV        &kp N4      &kp N5      &kp N6       &kp ASTRK        &kp PLUS             
+                &none   &out OUT_TOG    &none           &none           &none             &kp N1      &kp N2      &kp N3       &none            &kp ENTER  
+                                        &to DEFAULT     &none           &none             &none       &none       &to DEFAULT
             >;
         };
     };
