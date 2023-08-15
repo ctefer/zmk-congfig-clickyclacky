@@ -18,7 +18,6 @@
            key-positions = < 30 31 32>;
            bindings = <&kp LC(LA(DEL))>;
        };
-
        combo_win {
            timeout-ms = <COMBO_HOLD_TIME_MS>;
            key-positions = < 33 34 35>;
@@ -37,7 +36,7 @@
             label = "SHIFT_CAPS";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LSHFT>, <&kp LCAPS>;
+            bindings = <&kp LSHFT>, <&kp CAPS>;
         };
          bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
@@ -64,7 +63,7 @@
             bindings = <
                 &trans      &none       &kp LC(F)   &kp LC(P)   &kp F1                   &none       &kp UP      &none       &none        &kp GRAVE        
                 &kp LC(V)   &kp LC(A)   &none       &kp LC(S)   &kp F2                   &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT     &kp RBKT         
-                &kp LC(Z)   &kp LC(X)   &kp LC(C)   &none       &kp F4                   &none       &none       &none       &kp HOME     &kp END          
+                &kp LC(Z)   &kp LC(X)   &kp LC(C)   &none       &kp kp LC(B)             &none       &none       &none       &kp HOME     &kp END          
                                         &kp LSHFT   &kp LALT    &trans                   &trans      &trans      &trans 
             >;
         };
