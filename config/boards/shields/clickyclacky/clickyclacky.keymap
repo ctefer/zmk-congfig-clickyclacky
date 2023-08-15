@@ -22,7 +22,7 @@
        combo_win {
            timeout-ms = <COMBO_HOLD_TIME_MS>;
            key-positions = < 33 34 35>;
-           bindings = <&kp LGUI>;
+           bindings = <&sk LGUI>;
        };
        combo_blue {
            timeout-ms = <COMBO_HOLD_TIME_MS>;
@@ -37,7 +37,7 @@
             label = "SHIFT_CAPS";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&sk LSHFT>, <&kp CAPS>;
+            bindings = <&kp LSHFT>, <&kp LCAPS>;
         };
          bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
@@ -62,7 +62,7 @@
 
         nav_layer {
             bindings = <
-                &trans      &kp LC(S)   &kp LC(F)   &kp LC(P)   &kp F1                   &none       &kp UP      &none       &none        &kp GRAVE        
+                &trans      &none       &kp LC(F)   &kp LC(P)   &kp F1                   &none       &kp UP      &none       &none        &kp GRAVE        
                 &kp LC(V)   &kp LC(A)   &none       &kp LC(S)   &kp F2                   &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT     &kp RBKT         
                 &kp LC(Z)   &kp LC(X)   &kp LC(C)   &none       &kp F4                   &none       &none       &none       &kp HOME     &kp END          
                                         &kp LSHFT   &kp LALT    &trans                   &trans      &trans      &trans 
