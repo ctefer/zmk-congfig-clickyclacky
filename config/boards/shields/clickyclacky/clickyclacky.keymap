@@ -52,26 +52,26 @@
 
         default_layer {
             bindings = <
-                &mt LCTRL ESC &kp W     &kp F       &kp P       &kp G                    &kp J       &kp L       &kp U       &mt LPAR  Y   &kp SEMI      
-                &kp V       &kp A       &kp R       &kp S       &kp T                    &kp N       &kp E       &kp I       &mt RPAR  O   &kp MINUS     
-                &kp Z       &kp X       &kp C       &kp D       &kp B                    &kp H       &kp K       &kp M       &mt COMMA Q   &mt QMARK DOT     
+                &mt LCTRL ESC &kp W     &kp F       &kp P       &kp G                    &kp J       &kp L       &kp U       &mt LPAR  Y   &kp SEMI
+                &kp V       &kp A       &kp R       &kp S       &kp T                    &kp N       &kp E       &kp I       &mt RPAR  O   &kp MINUS
+                &kp Z       &kp X       &kp C       &kp D       &kp B                    &kp H       &kp K       &kp M       &mt COMMA Q   &mt QMARK DOT
                                         &kp RET     &shift_cap  &tog NAV_1               &bspc_del   &kp TAB     &kp SPACE            
             >;
         };
 
         nav_layer {
             bindings = <
-                &trans      &none       &kp LC(F)   &kp LC(P)   &kp F1                   &kp BSLH    &kp UP      &none       &none        &kp GRAVE        
-                &kp LC(V)   &kp LC(A)   &none       &kp LC(S)   &kp LC                   &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT     &kp RBKT         
-                &kp LC(Z)   &kp LC(X)   &kp LC(C)   &none       &kp LC(B)                &none       &none       &none       &kp COMMA    &kp DOT          
+                &trans      &none       &kp LC(F)   &kp LC(P)   &kp F1                   &kp BSLH    &kp UP      &none       &none        &kp GRAVE
+                &kp LC(V)   &kp LC(A)   &none       &kp LC(S)   &kp LC(LS(T))                   &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT     &kp RBKT
+                &kp LC(Z)   &kp LC(X)   &kp LC(C)   &none       &kp LC(B)                &none       &none       &none       &kp COMMA    &kp DOT
                                         &kp LSHFT   &kp LALT    &trans                   &bspc_del   &kp TAB     &kp SPACE 
             >;
         };
 
         bl_layer {
             bindings = <
-                &trans  &out OUT_USB    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &kp N7      &kp N8      &kp N9       &kp N0       &kp MINUS             
-                &none   &out OUT_BLE    &bt BT_CLR      &bt BT_NXT      &bt BT_PRV       &kp N4      &kp N5      &kp N6       &kp ASTRK    &kp PLUS             
+                &trans  &out OUT_USB    &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &kp N7      &kp N8      &kp N9       &kp N0       &kp MINUS
+                &none   &out OUT_BLE    &bt BT_CLR      &bt BT_NXT      &bt BT_PRV       &kp N4      &kp N5      &kp N6       &kp ASTRK    &kp PLUS
                 &none   &out OUT_TOG    &none           &none           &none            &kp N1      &kp N2      &kp N3       &kp ENTER    &kp BACKSLASH
                                         &to DEFAULT     &trans          &trans           &bspc_del   &kp TAB     &kp SPACE
             >;
