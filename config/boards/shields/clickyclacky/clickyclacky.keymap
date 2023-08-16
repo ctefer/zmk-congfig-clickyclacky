@@ -64,7 +64,7 @@
                 &trans      &none       &kp LC(F)   &kp LC(P)   &kp F1                   &kp BSLH    &kp UP      &none       &none        &kp GRAVE        
                 &kp LC(V)   &kp LC(A)   &none       &kp LC(S)   &kp F2                   &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT     &kp RBKT         
                 &kp LC(Z)   &kp LC(X)   &kp LC(C)   &none       &kp LC(B)                &none       &none       &none       &kp COMMA    &kp DOT          
-                                        &kp LSHFT   &kp LALT    &trans                   &bspc_del   &kf TAB     &kp SPACE 
+                                        &kp LSHFT   &kp LALT    &trans                   &bspc_del   &kp TAB     &kp SPACE 
             >;
         };
 
