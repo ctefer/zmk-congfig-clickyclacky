@@ -54,8 +54,8 @@
             bindings = <
                 &mt LCTRL ESC &kp W     &kp F       &kp P       &kp G                    &kp J       &kp L       &kp U       &mt LPAR  Y   &kp SEMI      
                 &kp V       &kp A       &kp R       &kp S       &kp T                    &kp N       &kp E       &kp I       &mt RPAR  O   &kp MINUS     
-                &kp Z       &kp X       &kp C       &kp D       &kp B                    &kp H       &kp K       &kp M       &mt COMMA Q   &kp DOT     
-                                        &kp RET     &shift_cap  &tog NAV_1               &bspc_del   &kp TAB    &kp SPACE            
+                &kp Z       &kp X       &kp C       &kp D       &kp B                    &kp H       &kp K       &kp M       &mt COMMA Q   &mt QMARK DOT     
+                                        &kp RET     &shift_cap  &tog NAV_1               &bspc_del   &kp TAB     &kp SPACE            
             >;
         };
 
