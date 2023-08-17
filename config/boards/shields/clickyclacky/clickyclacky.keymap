@@ -83,7 +83,7 @@
                 &kp ESC     &kp LBKT    &kp LBRC    &kp LPAR    &kp TILDE           &kp CARET   &kp RPAR    &kp RBRC    &kp RBKT     &kp GRAVE
                 &kp MINUS   &kp ASTRK   &kp EQUAL   &kp UNDER   &kp DLLR            &kp HASH    &none   &sk LALT    &sk LCTRL    &none
                 &kp PLUS    &kp PIPE    &kp AT      &kp FSLH    &kp PRCNT           &kp LGUI    &kp BSLH    &kp AMPS    &kp QMARK    &kp EXCL
-                                        &kp RET     &sk LSHFT   &to DEFAULT         &none       &kp TAB     &kp SPACE 
+                                        &kp RET     &sk LSHFT   &none               &none       &kp TAB     &kp SPACE 
             >;
         };
 
@@ -92,8 +92,8 @@
         ble_layer {
             bindings = <
                 &kp ESC     &out OUT_USB    &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2          &kp B &kp T &kp B &kp T &none
-                &none       &out OUT_BLE    &bt BT_CLR      &bt BT_NXT     &bt BT_PRV            &kp B &kp T &kp B &kp T &none
-                &none       &out OUT_TOG    &none           &none          &none                 &kp B &kp T &kp B &kp T &none
+                &none       &out OUT_BLE    &bt BT_CLR     &bt BT_NXT      &bt BT_PRV            &kp B &kp T &kp B &kp T &none
+                &none       &out OUT_TOG    &none          &none           &none                 &kp B &kp T &kp B &kp T &none
                                             &kp RET        &sk LSHFT       &to DEFAULT           &none   &kp TAB     &kp SPACE
             >;
         };
