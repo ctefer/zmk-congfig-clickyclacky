@@ -12,9 +12,6 @@
 #define COMBO_HOLD_TIME_MS 50
 
 / {
-    &mt {
-        tapping-term-ms = <400>;
-    };
     combos {
        compatible = "zmk,combos";
        combo_threef {
