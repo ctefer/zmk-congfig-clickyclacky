@@ -71,9 +71,9 @@
 
         nav_layer {
             bindings = <
-                &kp ESC     &none       &kp LC(F)   &kp LC(P)   &kp F1              &kp HOME    &kp UP      &LC(I)      &none        &kp DEL
-                &kp LC(V)   &kp LC(A)   &none       &kp LC(S)   &kp LC(LA(T))       &kp LEFT    &kp DOWN    &kp RIGHT   &kp LBKT     &kp BSPC
-                &kp LC(Z)   &kp LC(X)   &kp LC(C)   &none       &kp LC(B)           &kp END     &none       &none       &kp COMMA    &kp ENTER
+                &kp ESC     &none       &kp LC(F)   &kp LC(P)   &kp F1              &kp HOME    &kp UP      &kp LC(I)   &none        &kp DEL
+                &kp LC(V)   &kp LC(A)   &none       &kp LC(S)   &kp LC(LA(T))       &kp LEFT    &kp DOWN    &kp RIGHT   &none        &kp BSPC
+                &kp LC(Z)   &kp LC(X)   &kp LC(C)   &none       &kp LC(B)           &kp END     &none       &none       &none        &kp ENTER
                                         &kp RET     &sk LSHFT   &to LAY_3           &mo SYM_1   &kp TAB     &kp SPACE 
             >;
         };
