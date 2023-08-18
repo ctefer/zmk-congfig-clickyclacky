@@ -63,7 +63,7 @@
         nav_layer {
             bindings = <
                 &kp ESC     &none       &kp LC(F)   &kp LC(P)   &kp F1              &kp HOME    &kp UP      &kp LC(I)   &none        &kp DEL
-                &kp LC(V)   &kp LC(A)   &none       &kp LC(S)   &kp LC(LA(T))       &kp LEFT    &kp DOWN    &kp RIGHT   &none        &kp BSPC
+                &kp LC(V)   &kp LC(A)   &kp LC(R)   &kp LC(S)   &kp LC(LA(T))       &kp LEFT    &kp DOWN    &kp RIGHT   &none        &kp BSPC
                 &kp LC(Z)   &kp LC(X)   &kp LC(C)   &none       &kp LC(B)           &kp END     &none       &none       &none        &kp ENTER
                                         &kp RET     &sk LSHFT   &to NUM_2           &to DEFAULT &kp TAB     &kp SPACE 
             >;
@@ -71,10 +71,10 @@
 
         num_layer {
             bindings = <
-                &kp ESC     &kp F7      &kp F8      &kp F9      &kp F10             &kp N7      &kp N8      &kp N9       &kp N0       &kp MINUS
-                &none       &kp F4      &kp F5      &kp F6      &kp F11             &kp N4      &kp N5      &kp N6       &kp ASTRK    &kp PLUS
+                &kp ESC     &kp F7      &kp F8      &kp F9      &kp F10             &kp N7      &kp N8      &kp N9       &kp N0       &kp DEL
+                &none       &kp F4      &kp F5      &kp F6      &kp F11             &kp N4      &kp N5      &kp N6       &kp ASTRK    &kp BSPC
                 &none       &kp F1      &kp F2      &kp F3      &kp F12             &kp N1      &kp N2      &kp N3       &kp ENTER    &kp BACKSLASH
-                                        &kp RET     &sk LSHFT   &to DEFAULT         &to DEFAULT &kp TAB     &kp SPACE
+                                        &kp RET     &sk LSHFT   &to DEFAULT         &mo SYM_3   &kp TAB     &kp SPACE
             >;
         };
 
