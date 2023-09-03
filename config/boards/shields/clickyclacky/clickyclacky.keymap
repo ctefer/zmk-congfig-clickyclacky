@@ -5,7 +5,7 @@
 
 #define DEFAULT 0
 #define NAV_1 1
-#define NUM_2 2
+#define NLA_2 2
 #define SYM_3 3
 #define BLE_4 4
 
@@ -34,7 +34,6 @@
            key-positions = < 33 38>;
            bindings = <&to DEFAULT>;
        };
-    };
     };
 
     behaviors {
@@ -71,7 +70,7 @@
                 &kp ESC     &sk LC(LALT) &kp LC(F)  &kp LC(P)   &kp F1              &kp HOME    &kp UP      &kp LC(I)   &none        &kp DEL
                 &kp LC(V)   &kp LC(A)   &kp LC(R)   &kp LC(S)   &kp LC(LA(T))       &kp LEFT    &kp DOWN    &kp RIGHT   &none        &kp BSPC
                 &kp LC(Z)   &kp LC(X)   &kp LC(C)   &none       &kp LC(B)           &kp END     &none       &none       &none        &kp ENTER
-                                        &kp SPACE   &sk LSHFT   &to NUM_2           &mo SYM_3   &kp TAB     &kp RET 
+                                        &kp SPACE   &sk LSHFT   &to NLA_2           &mo SYM_3   &kp TAB     &kp RET 
             >;
         };
 
